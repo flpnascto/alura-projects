@@ -1,8 +1,12 @@
+import Link from 'next/link';
+
 function HomePage() {
   return (
     <div>
       <h1>Alura Cases - Página Inicial</h1>
-      <a href='/faq'>Ir para FAQ</a>
+      <Link href='/faq'>
+        <a>Ir para FAQ</a>
+      </Link>
     </div>
   )
 }
