@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from '../src/components/Link';
 
 export default function FAQPage() {
   return (
     <div>
       <h1>Alura Cases - Página de Perguntas - FAQ</h1>
       <Link href='/'>
-        <a>voltar para Home</a>
+        voltar para Home
       </Link>
     </div>
   )
